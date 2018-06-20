@@ -7,7 +7,8 @@ export const fetchData = (url) => {
     .catch(err => {
       return superagent.get(url)
         .then(result => { 
-          setCache(url, result.body);
+          console.log(result.body);
+          setCache(url, result.text);
           return result.body; 
         })
         .catch(console.log);
