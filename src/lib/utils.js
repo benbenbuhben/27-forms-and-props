@@ -11,7 +11,7 @@ export const fetchData = (url) => {
           setCache(url, result.text);
           return result.body; 
         })
-        .catch(console.log);
+        .catch(err => {return 'error';} );
     })
     .then(data => data);
 };

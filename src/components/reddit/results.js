@@ -12,23 +12,24 @@ export default class RedditResults extends React.Component{
         <div className="redditResults">
         
           <h2>Results</h2>
-          {
-        
-            this.props.results.map( (post, i) =>
-              <div key={i}>
-                <li>
-                  <a href={post.data.url}>
-                    <h1>
-                      {post.data.title}
-                    </h1>
+          <ul>
+            {
+              this.props.results.map( (post, i) =>
+                <div key={i}>
+                  <li>
+                    <a href={post.data.url}>
+                      <h3>
+                        {post.data.title}
+                      </h3>
+                    </a>  
                     <p>
                     Upvotes: {post.data.ups}
                     </p>
-                  </a>  
-                </li>  
-              </div>
-            )
-          }
+                  </li>  
+                </div>
+              )
+            }
+          </ul>
         </div>
       );
     }
