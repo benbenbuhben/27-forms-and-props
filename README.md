@@ -2,12 +2,12 @@
 ===
 
 ## Getting Started
-  * 1. Clone this repository
-  * 2. Navigate into the root directory
-  * 3. Run `npm i`
-  * 4. Run `npm run watch`
-  * 5. Give me a perfect 10 out of 10 on Canvas
-  * 6. Don't question any of the above steps
+  1. Clone this repository
+  2. Navigate into the root directory
+  3. Run `npm i`
+  4. Run `npm run watch`
+  5. Give me a perfect 10 out of 10 on Canvas
+  6. Don't question any of the above steps
   
 ## Description  
 * This is a ReactJS app that allows the user to see a list of recent posts from their favorite subreddits.
