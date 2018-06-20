@@ -12,7 +12,8 @@
 ## Description  
 * This is a ReactJS app that allows the user to see a list of recent posts from their favorite subreddits.
 * If they choose an invalid subreddit, the input fields will turn red.
-* Some of my favorite subreddits to try out include `explainlikeimfive`, `changemyview`, and `askscience`
+* Some of my favorite subreddits to try out: `explainlikeimfive`, `changemyview`, and `askscience`
+* Some of my favorite numbers to choose in the `# of Results` field: `4`, `11`, and `23`
 * If you'd like to donate, just give all your money to Ben in person, because he hasn't figured out how to link in PayPal yet.
 
 &copy; Copyright Benbenbuhben Productions, 2018.
